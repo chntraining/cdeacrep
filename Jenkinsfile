@@ -28,11 +28,11 @@ pipeline {
 	 }
 
             }
+      }
             post{
 	always{
            	     echo 'Pipeline execution Completed' 
                  }
              }
 
-     }
 }
